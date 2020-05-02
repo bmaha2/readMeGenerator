@@ -1,8 +1,8 @@
 
     
-# proj1
-    homework
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+# readMeGenerator
+    generates README.md file
+![readMeGenerator](https://img.shields.io/github/last-commit/bmaha2/readMeGenerator)
 ### table of contents
 
 * [Installation](#installation)
@@ -11,17 +11,17 @@
 * [License](#license)
 
 ## Installation
-    read guide
+    run npm i
 ## Usuage
-    practice
+    answers questions to generate readme.md file
 ## License
-    public
+    mit
 ## Contributing
-none
+bipin
 ## Tests
-running
+run npm test
 ## Question
-bm@hotmail.com
-![profile image](asldjf.com)
+bmaha2
+![profile image](https://dskjf)
 
   

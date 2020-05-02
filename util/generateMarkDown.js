@@ -3,7 +3,7 @@ function generateMarkdown(data) {
     
 # ${data.title}
     ${data.description}
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+![${data.title}](https://img.shields.io/github/last-commit/bmaha2/${data.title})
 ### table of contents
 
 * [Installation](#installation)
