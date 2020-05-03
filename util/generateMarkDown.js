@@ -1,32 +1,40 @@
 function generateMarkdown(data) {
     return `
-    
+![${data.title}](https://img.shields.io/github/last-commit/${data.username}/${data.title})
 # ${data.title}
-    ${data.description}
-![${data.title}](https://img.shields.io/github/last-commit/bmaha2/${data.title})
+
+## Description
+${data.description}
+
 ### table of contents
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [Credits](#credits)
 * [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Question](#questions)
 
 ## Installation
     ${data.installation}
+
 ## Usuage
     ${data.usage}
+
 ## License
-    ${data.license}
+    This project is under ${data.license} license.
+
 ## Contributing
 ${data.contributing}
+
 ## Tests
 ${data.tests}
+
 ## Question
-${data.email}
-![profile image](${data.profileURL})
+![${data.username}](${data.image})
+
 
   `;
-  }
-  
-  module.exports = generateMarkdown;
-  
+}
+
+module.exports = generateMarkdown;

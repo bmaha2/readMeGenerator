@@ -1,27 +1,36 @@
 
-    
-# readMeGenerator
-    generates README.md file
 ![readMeGenerator](https://img.shields.io/github/last-commit/bmaha2/readMeGenerator)
+# readMeGenerator
+
+## Description
+creates README.md file
+
 ### table of contents
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [Credits](#credits)
 * [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Question](#questions)
 
 ## Installation
-    run npm i
+    npm i
+
 ## Usuage
-    answers questions to generate readme.md file
+    user answers series of questions to generate README.md file
+
 ## License
-    mit
+    This project is under Apache license.
+
 ## Contributing
-bipin
+email maharjanbipin@gmail.com
+
 ## Tests
-run npm test
+run test
+
 ## Question
-bmaha2
-![profile image](https://dskjf)
+![bmaha2](undefined)
+
 
   
