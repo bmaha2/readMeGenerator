@@ -3,7 +3,7 @@
 # readMeGenerator
 
 ## Description
-creates README.md file
+generates README.md file
 
 ### table of contents
 
@@ -18,19 +18,19 @@ creates README.md file
     npm i
 
 ## Usuage
-    user answers series of questions to generate README.md file
+    generate readme file 
 
 ## License
-    This project is under Apache license.
+    This project is under  license.
 
 ## Contributing
-email maharjanbipin@gmail.com
+email
 
 ## Tests
 run test
 
 ## Question
-![bmaha2](undefined)
+![bmaha2](https://avatars2.githubusercontent.com/u/58144039?v=4)
 
 
   

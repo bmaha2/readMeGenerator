@@ -74,15 +74,17 @@ function init() {
 function getUserData() {
     return inquirer.prompt(questions)
         .then(answers => {
-            axios.get(`https://api.github.com/users/${answers.username}`).then(res=> {
-                image = res.data.avatar_url;
-                console.log(image)
-                return image;
-            })
-            console.log(answers);
-            return answers;
-        })
+            let data = { ...answers };
+            return axios.get(`https://api.github.com/users/${data.username}`)
+                .then(res => {
+                    data = { ...data, image: res.data.avatar_url };
+                    console.log(data);
+                    return data;
 
+                }).catch(err => {
+                    console.error(err);
+                })
+        })
         .catch(err => {
             console.error(err);
         })
